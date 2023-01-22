@@ -1,0 +1,35 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/1351756759/photo/blue-curve-shapes-soft-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=l3d4NBJA1tppryMSNmogfovn2AnWFDhvV8I04oko9dg=');
+    background-size: cover;
+}
+h1:after{
+    background-color: white;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin: 20px auto;
+}
+.btnjs {
+    padding: 5px 8px;
+    margin: 10px;
+    background-color: rgba(239, 46, 46, 0.845);
+    border: 1px solid rgba(239, 46, 46, 0.845);
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+}
+.btnjs-2{
+    padding: 5px 8px;
+    margin: 10px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+}
+
+.btnjs:hover {
+    background-color: white;
+    color: black;
+}
